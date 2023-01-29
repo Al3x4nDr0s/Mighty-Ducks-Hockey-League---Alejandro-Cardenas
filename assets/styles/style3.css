@@ -5,3 +5,23 @@
     font-family: 'Comic Neue', cursive;
     font-family: 'Montserrat', sans-serif;
 }
+
+header {
+    margin-top: 80px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    background-color: black;
+}
+
+h1 {
+    font-size: 75px;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 15px;
+    transform: translateY(-96px) ;
+}
+

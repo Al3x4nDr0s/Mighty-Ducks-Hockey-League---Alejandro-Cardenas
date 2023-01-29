@@ -83,8 +83,9 @@ p {
     margin-bottom: 20px;
 }
 
-#img_hkcy {
+.img_hkcy {
     position: absolute;
     margin-top: 200px;
     margin-left: 70%;
 }
+
