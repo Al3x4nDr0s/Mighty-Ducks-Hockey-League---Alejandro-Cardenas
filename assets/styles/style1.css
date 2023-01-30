@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-image:url("../images/design1_image1.jpg");
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+h1 {
+    display: inline;
+    font-size: 75px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+.title-events{
+    background-color: black;
+    margin-top: 5px;
+    height: 50px;
+    font-size: 30px;
+    text-align:center;
+    color: white;
+    font-weight: bolder;
+}
+
+.logo {
+    display:inline;
+    position:absolute;
+    margin-top: -195px;
+    margin-left: 80%;
+    width: 150px;
+}
+
+nav {
+    display:inline-block;
+    position:absolute;
+    margin-left: 15px;
+}
+
+a {
+    display: block;
+    font-size:20px;
+    font-weight: bold;
+    margin-left: 10px; 
+    margin-bottom: 90px;
+}
+
+#decoration {
+    text-decoration: none;
+}
+
+a:hover {
+   font-size: 21px;
+   font-weight: bold;
+   color: blue; 
+}
+
+.container {
+    display:inline-block;
+    position: absolute;
+    font-size: 25px;
+    margin-left: 300px;
+}
+
+div article h3 {
+    font-style: italic;
+}
+
+.bleeding {
+    margin-left: 80px;
+}
+
+p {
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.mailto {
+    display: inline;
+}
+
+.img_hkcy {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 83%;
+}
+
+.img_hkcy1 {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 83%;
+}
