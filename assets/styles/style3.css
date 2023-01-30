@@ -15,19 +15,20 @@ header {
     background-color: rgb(12, 1, 12);
 }
 
- h1 {
+h1 {
     display: inline-block;
     text-align: center;
     font-size: 45px;
     font-weight: bold;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-left: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
     transform: translateY(-80px);
     margin-left: 35%;
     background-color:rgb(198, 200, 199);
     box-shadow: 10px 10px darkgray;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 body {
@@ -36,21 +37,26 @@ body {
     background-image: url("../images/design1_image2.jpg");
     background-size: cover;
     background-repeat: no-repeat; 
-    /* background-color: rgb(227, 226, 226); */
 }
 
 .title-events{
+    display:inline-block;
+    position:absolute;
+    margin-left: 15px;
+    margin-top: 60px;
     height: 50px;
     font-size: 30px;
-    text-align:center;
     color: rgb(0, 0, 0);
-    font-weight: bolder;
+    font-weight: 800;
+    background-color:rgb(198, 200, 199);
+    box-shadow: 10px 10px darkgray;
+    opacity: 0.7;
 }
 
 .logo {
     display:inline;
     position:absolute;
-    margin-top: -182px;
+    margin-top: -135px;
     margin-left: 10%;
     width: 160px;
 }
@@ -58,7 +64,7 @@ body {
 nav {
     display:inline;
     position:absolute;
-    margin-top: -115px;
+    margin-top: -68px;
     margin-left: 37%;
     width: 700px;
 }
@@ -73,29 +79,27 @@ nav a {
 
 }
 
+#decoration {
+    background-color: rgb(0, 102, 128);
+}
+
 nav a:hover {
     font-size: 30px;
     font-weight: bold;
     background-color: rgb(0, 102, 128);
 }
 
-main {
-    margin-top: 80px;
-    margin-left: 27%;
-    height: 480px;
-    width: 1000px;
-    background-color:rgb(198, 200, 199);
-    box-shadow: 10px 10px darkgray;
-    opacity: 0.8;
-}
-
 .container {
     display:inline-block;
-    position: absolute;
+    padding: 20px;
     font-size: 25px;
     font-weight: 800;
-    margin-left: 80px;
-    margin-top: 80px;
+    margin-left: 25%;
+    margin-top: 40px;
+    background-color:rgb(198, 200, 199);
+    box-shadow: 10px 10px darkgray;
+    opacity: 0.7;
+
 }
 
 div article h3 {
@@ -109,7 +113,5 @@ p {
 }
 
 .img_hkcy {
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 70%;
+    display: none;
 }

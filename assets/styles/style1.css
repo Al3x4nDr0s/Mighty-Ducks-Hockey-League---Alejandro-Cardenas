@@ -51,7 +51,6 @@ a {
     font-size:20px;
     font-weight: bold;
     margin-left: 10px; 
-    margin-top: 90px;
     margin-bottom: 90px;
 }
 
@@ -69,12 +68,15 @@ a:hover {
     display:inline-block;
     position: absolute;
     font-size: 25px;
-    margin-left: 350px;
-    margin-top: 80px;
+    margin-left: 300px;
 }
 
 div article h3 {
     font-style: italic;
+}
+
+.bleeding {
+    margin-left: 80px;
 }
 
 p {
@@ -83,9 +85,18 @@ p {
     margin-bottom: 20px;
 }
 
-.img_hkcy {
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 70%;
+.mailto {
+    display: inline;
 }
 
+.img_hkcy {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 83%;
+}
+
+.img_hkcy1 {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 83%;
+}

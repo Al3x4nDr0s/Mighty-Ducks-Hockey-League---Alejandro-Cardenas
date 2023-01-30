@@ -89,6 +89,10 @@ div article h3 {
     font-style: italic;
 }
 
+.bleeding {
+    margin-left: 80px;
+}
+
 p {
     margin-left: 40px;
     margin-top: 10px;
@@ -99,4 +103,10 @@ p {
     position: absolute;
     margin-top: 200px;
     margin-left: 70%;
+}
+
+.img_hkcy1 {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 20px;
 }
