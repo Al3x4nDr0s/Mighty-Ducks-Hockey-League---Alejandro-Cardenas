@@ -13,6 +13,8 @@ body {
     background-size: cover;
 }
 
+/* Header */
+
 header {
     display: flex;
     flex-direction: column;
@@ -69,6 +71,8 @@ nav a:hover {
     background-color: rgb(0, 102, 128);
 }
 
+/* main */
+
 main {
     display: flex;
 }
@@ -92,13 +96,17 @@ main {
     flex-direction: column;
     width: 75%;
     margin-top: 30px;
+    padding-top: 2rem;
     padding-left: 10rem;
     padding-right: 1rem;
+    padding-bottom: 2rem;
     background-color:rgb(198, 200, 199);
     box-shadow: 10px 10px darkgray;
     opacity: 0.8;
 
 }
+
+/* Rules */
 
 .center-titles {
     display: flex;
@@ -143,6 +151,7 @@ ol li {
 
 .list-items ol li {
     font-size: 25px;
+    font-weight: 600;
 }
 
 ul li {
@@ -184,16 +193,16 @@ ul li {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 9%;
-    font-weight: 500;
+    font-weight: 600;
 } 
 
-tbody tr:nth-child(odd){
+/* tbody tr:nth-child(odd){
     border-top: 1px solid ;
-}
+} */
 
-tbody tr:nth-child(2n-1){
+/* tbody tr:nth-child(2n-1){
     border-top: 1px solid ;
-}
+} */
 
 .footer-text {
     margin-bottom: 20px;
@@ -206,5 +215,25 @@ tbody tr:nth-child(2n-1){
 .contacts {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Home */
+
+div article h3 {
+    font-style: italic;
+}
+
+div article p {
+    font-weight: 600;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Contact - About MDHJ */
+
+.main-article p {
+    font-weight: 600;
     margin-bottom: 20px;
 }
