@@ -6,12 +6,48 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
+/* body {
+    height: 100vh;
+    width: 100%;
+    background: url("../images/design1_image2.jpg") no-repeat center center fixed;;
+    background-size: cover;
+} */
+
+.body-one {
     height: 100vh;
     width: 100%;
     background: url("../images/design1_image2.jpg") no-repeat center center fixed;;
     background-size: cover;
 }
+
+.body-two {
+    height: 100vh;
+    width: 100%;
+    background: url("../images/design1_image1.jpg") no-repeat center center fixed;;
+    background-size: cover;
+}
+
+.body-three {
+    height: 100vh;
+    width: 100%;
+    background: url("../images/hockey_1.jpg") no-repeat center center fixed;;
+    background-size: cover;
+}
+
+.body-four {
+    height: 100vh;
+    width: 100%;
+    background: url("../images/hockey_2.jpg") no-repeat center center fixed;;
+    background-size: cover;
+}
+
+.body-five {
+    height: 100vh;
+    width: 100%;
+    background: url("../images/hockey_3.jpg") no-repeat center center fixed;;
+    background-size: cover;
+}
+
 
 /* Header */
 
@@ -27,9 +63,15 @@ header figure {
 h1 {
     display: flex;
     justify-content: center;
+    width: 1000px;
     margin-top: 20px;
+    margin-left: 450px;
     font-size: 55px;
     font-weight: 900;
+    background-color:rgb(198, 200, 199);
+    box-shadow: 10px 10px darkgray;
+    opacity: 0.8;
+
 }
 
 .logo {
@@ -135,6 +177,7 @@ p {
 
 .section-h2 ol {
     list-style-type:decimal;
+    font-weight: 600;
 }
 
 .section-h2 ol ol {
@@ -153,6 +196,7 @@ ol li {
     font-size: 25px;
     font-weight: 600;
 }
+
 
 ul li {
     margin-left: 40px;
@@ -181,13 +225,17 @@ ul li {
 }
 
 .styled-table thead tr { 
-    text-align: middle;
+    text-align:center;
  }
 
  .styled-table thead tr th {
-    font-weight: 700;
+    font-weight: 800;
 
  }
+
+.styled-table tbody {
+    background-color: rgb(186, 185, 182);
+} 
 
 .styled-table tbody tr td {
     padding-top: 20px;
@@ -196,13 +244,13 @@ ul li {
     font-weight: 600;
 } 
 
-/* tbody tr:nth-child(odd){
-    border-top: 1px solid ;
-} */
+tbody tr:nth-child(4n-1){
+    background-color: rgb(162, 162, 159);
+}
 
-/* tbody tr:nth-child(2n-1){
-    border-top: 1px solid ;
-} */
+tbody tr:nth-child(4n){
+    background-color: rgb(162, 162, 159);
+}
 
 .footer-text {
     margin-bottom: 20px;
