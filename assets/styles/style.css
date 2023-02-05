@@ -335,3 +335,28 @@ div article p {
     transform: translateX(-300px);
 } 
 
+.north {
+    width: 200px;
+    height: 80px;
+    transform: translateX(-80px);
+} 
+
+.north:hover {
+    width: 600px;
+    height: 300px;
+    transform: translateX(-300px);
+}
+
+.south {
+    width: 200px;
+    height: 80px;
+    transform: translateX(-80px);
+}
+
+.south:hover {
+    width: 600px;
+    height: 300px;
+    transform: translateX(-300px);
+}
+
+
