@@ -36,7 +36,97 @@
             <h2>Registration</h2>
         </section>
         <div class = "main-article">
-
+            <form action="./show_data.html" method="get">
+                <h2>Registration Form</h2>
+                <div>
+                    <label for="first-name">Player's First Name:</label>
+                    <input type="text" name="first-name" id="first-name" size="25" placeholder="e.g. John">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" name="last-name" id="last-name" size="30" placeholder="e.g. Connor">
+                </div>
+                <div>
+                    <label for="street-adress">Street Adress:</label>
+                    <input type="text" name="street-adress" id="street-adress" size="75" placeholder="e.g. 746 E 4th St, Long Beach">
+                </div>
+                <div>
+                    <label for="city">City:</label>
+                    <input type="text" name="city" id="city" size="45" placeholder="e.g. Los Angeles">
+                    <label for="zip-code">Zip Code:</label>
+                    <input type="text" name="zip-code" id="zip-code" size="25" placeholder="e.g. CA 90802">
+                </div>
+                <div class="birth-gender">
+                    <label for="birth-date">Birth Date(mm/dd/yyyy):<input class="birth" type="date" name="birth-date" id="birth-date"></label>
+                    <div class="gender">
+                        <h3>Gender:</h3>
+                        <label for="female">Female<input type="radio" name="female" id="female" value="female"></label>
+                        <label for="male">Male<input type="radio" name="male" id="male" value="male"></label>
+                    </div>
+                </div>
+                <div class="size-label-grade">
+                        <h3>Grade:</h3>
+                        <label for="schoo1"><input type="radio" name="school" id="school1" value="Pre-School">Pre-School</label>
+                        <label for="school2"><input type="radio" name="school" id="school2" value="1st">1st</label>
+                        <label for="school3"><input type="radio" name="school" id="school3" value="2nd">2nd</label>
+                        <label for="school4"><input type="radio" name="school" id="school4" value="3rd">3rd</label>
+                        <label for="school5"><input type="radio" name="school" id="school5" value="4th">4th</label>
+                        <label for="school6"><input type="radio" name="school" id="school6" value="5th">5th</label>
+                </div>
+                <h3>Which elementary school do you live near?</h3>
+                <div class="select">
+                    <label for="school-select">Closest School:</label>
+                    <select name="school" id="school-select">
+                        <option value=""> -----Please choose an school----- </option>
+                        <option value="Katzenmaier">AJ Katzenmaier</option>
+                        <option value="Greenbay">Greenbay</option>
+                        <option value="Yeager">Howard A Yeager/option>
+                        <option value="Hart">Marjorie P Hart</option>
+                        <option value="North">North Elementary</option>
+                        <option value="South">South Elementary</option>
+                    </select>
+                </div>
+                <h3>What position(s) do you normally play? (check all that apply)</h3>
+                <div class="size-label">
+                    <div class="size-label-school">                    
+                        <label for="position1"><input type="checkbox" name="position" id="position1" value="forward">  Forward</label>
+                        <label for="position2"><input type="checkbox" name="position" id="position2" value="defense">  Defense</label>
+                    </div>
+                    <div class="size-label-school">
+                        <label for="position3"><input type="checkbox" name="position" id="position3" value="midfield">  Midfield</label>
+                        <label for="position4"><input type="checkbox" name="position" id="position4" value="goalkeeper">  Goalkeeper</label>
+                    </div>
+                </div>
+                <h3>Uniform Size:</h3>
+                <div class="size-label">
+                    <div class="size-label-school">
+                        <label for="suniform-size1"><input type="radio" name="uniform-size" id="suniform-size1" value="youth-small">  Youth Small</label>
+                        <label for="uniform-size2"><input type="radio" name="uniform-size" id="uniform-size2" value="youth-medium">  Youth Medium</label>
+                        <label for="uniform-size3"><input type="radio" name="uniform-size" id="uniform-size3" value="youth-large">  Youth Large</label>
+                        <label for="uniform-size4"><input type="radio" name="uniform-size" id="uniform-size4" value="small">  Small</label>
+                    </div>
+                    <div class="size-label-school">
+                        <label for="uniform-size5"><input type="radio" name="uniform-size" id="uniform-size5" value="medium">Medium</label>
+                        <label for="uniform-size6"><input type="radio" name="uniform-size" id="uniform-size6" value="large">Large</label>
+                        <label for="uniform-size7"><input type="radio" name="uniform-size" id="uniform-size7" value="extra-large">Extra-Large</label>
+                    </div>
+                </div>
+                <h3>
+                    Permission to Play
+                </h3>
+                <p>
+                    I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers,including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,which transportation.
+                    By signing below, I herebyagree andauthorizethe above.ln addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.
+                </p>
+                <div class="signature">
+                    <label for="signature">Parent/Guardian Signature:</label>
+                    <input type="text" name="signature" id="signature" size="60" placeholder="e.g. Kyle Reese">
+                </div>
+                <div class="signature">
+                    <label for="date-signature">Date:</label>
+                    <input type="date" name="date-signature" id="date-signature" size="30px">
+                </div>
+                <input class="button" type="button" value="Send">
+                <input class="button" type="reset" value="Reset">
+            </form>
         </div>
     </main>
     

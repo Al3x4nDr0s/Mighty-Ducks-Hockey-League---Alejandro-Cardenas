@@ -65,7 +65,7 @@ h1 {
     justify-content: center;
     width: 1000px;
     margin-top: 20px;
-    margin-left: 450px;
+    margin-left: 550px;
     font-size: 55px;
     font-weight: 900;
     background-color:rgb(198, 200, 199);
@@ -79,6 +79,7 @@ h1 {
     width: 160px;
     margin-left: 80px;
     transform: translateY(-5px);
+
 }
 
 nav {
@@ -359,4 +360,117 @@ div article p {
     transform: translateX(-300px);
 }
 
+/*********** Registration ***********/
 
+
+
+form h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+form h3 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+form h4 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+form div {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.birth-gender {
+    justify-content: space-between;
+    height: 36px;
+    margin-bottom: 30px;
+}
+
+.birth {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.gender{
+    height: 36px;
+    margin: 0 100px;
+}
+
+.gender h3 {
+    margin-right: 20px;
+}
+
+.gender label {
+    margin-left: 20px;
+}
+
+.select {
+    justify-content: start;
+    margin-bottom: 50px;
+}
+
+.select option {
+    font-size: 25px;
+}
+
+
+.size-label{
+    display: flex;
+    justify-content: start;
+}
+
+.size-label-school {
+    flex-direction: column;
+    margin-right: 150px;
+    font-size: 25px;
+}
+
+.size-label-grade{
+    justify-content: start;
+}
+
+.size-label-grade h3 {
+    margin-right: 40px;
+}
+
+.size-label-grade label {
+    margin-right: 40px;
+    font-size: 25px;
+}
+
+.signature {
+    justify-content: start;
+    margin-top: 50px;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color:rgb(198, 200, 199);
+    font-size: 30px;
+}
+
+.button {
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 30px ;
+    padding: 5px;
+    font-weight: 700;
+}
+
+.button:hover {
+    background-color: black;
+    color: rgb(198, 200, 199);
+}
