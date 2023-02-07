@@ -452,6 +452,7 @@ form div {
 .signature {
     justify-content: start;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 input {
@@ -468,6 +469,7 @@ input {
     margin: 30px ;
     padding: 5px;
     font-weight: 700;
+    box-shadow: 7px 7px darkgray;
 }
 
 .button:hover {
