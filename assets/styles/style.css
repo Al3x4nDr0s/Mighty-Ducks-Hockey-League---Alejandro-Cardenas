@@ -6,45 +6,45 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/* body {
-    height: 100vh;
-    width: 100%;
-    background: url("../images/design1_image2.jpg") no-repeat center center fixed;;
-    background-size: cover;
-} */
-
 .body-one {
     height: 100vh;
     width: 100%;
-    background: url("../images/design1_image2.jpg") no-repeat center center fixed;;
+    background: url("../images/design1_image2.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
 .body-two {
     height: 100vh;
     width: 100%;
-    background: url("../images/design1_image1.jpg") no-repeat center center fixed;;
+    background: url("../images/design1_image1.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
 .body-three {
     height: 100vh;
     width: 100%;
-    background: url("../images/hockey_1.jpg") no-repeat center center fixed;;
+    background: url("../images/hockey_1.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
 .body-four {
     height: 100vh;
     width: 100%;
-    background: url("../images/hockey_2.jpg") no-repeat center center fixed;;
+    background: url("../images/hockey_2.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
 .body-five {
     height: 100vh;
     width: 100%;
-    background: url("../images/hockey_3.jpg") no-repeat center center fixed;;
+    background: url("../images/hockey_3.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.body-six {
+    height: 100vh;
+    width: 100%;
+    background: url("../images/De-Leo-web-1024x576.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -65,7 +65,7 @@ h1 {
     justify-content: center;
     width: 1000px;
     margin-top: 20px;
-    margin-left: 450px;
+    margin-left: 550px;
     font-size: 55px;
     font-weight: 900;
     background-color:rgb(198, 200, 199);
@@ -79,6 +79,7 @@ h1 {
     width: 160px;
     margin-left: 80px;
     transform: translateY(-5px);
+
 }
 
 nav {
@@ -90,7 +91,6 @@ nav {
 
 nav a {
     display: flex;
-    /* align-items: center; */
     height: 40px;
     margin-top: 25px;
     margin-left: 30px;
@@ -144,7 +144,7 @@ main {
     padding-bottom: 2rem;
     background-color:rgb(198, 200, 199);
     box-shadow: 10px 10px darkgray;
-    opacity: 0.8;
+    opacity: 0.95;
 
 }
 
@@ -284,4 +284,195 @@ div article p {
 .main-article p {
     font-weight: 600;
     margin-bottom: 20px;
+}
+
+/* Maps */
+
+.katzenmaier {
+    width: 200px;
+    height: 80px;
+    transform: translateX(-80px);
+}
+
+.katzenmaier:hover {
+    width: 800px;
+    height: 320px;
+    transform: translateX(-300px);
+}
+
+.greenbay {
+    width: 200px;
+    height: 80px;
+    transform: translateX(-80px);
+}
+
+.greenbay:hover {
+    width: 600px;
+    height: 300px;
+    transform: translateX(-300px);
+} 
+
+.yeager {
+    width: 200px;
+    height: 80px;
+    transform: translateX(-80px);
+}
+
+.yeager:hover {
+    width: 600px;
+    height: 300px;
+    transform: translateX(-300px);
+} 
+
+.hart {
+    width: 200px;
+    height: 80px;
+    transform: translateX(-80px);
+}
+
+.hart:hover {
+    width: 600px;
+    height: 300px;
+    transform: translateX(-300px);
+} 
+
+.north {
+    width: 200px;
+    height: 80px;
+    transform: translateX(-80px);
+} 
+
+.north:hover {
+    width: 600px;
+    height: 300px;
+    transform: translateX(-300px);
+}
+
+.south {
+    width: 200px;
+    height: 80px;
+    transform: translateX(-80px);
+}
+
+.south:hover {
+    width: 600px;
+    height: 300px;
+    transform: translateX(-300px);
+}
+
+/*********** Registration ***********/
+
+
+
+form h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+form h3 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+form h4 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+form div {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.birth-gender {
+    justify-content: space-between;
+    height: 36px;
+    margin-bottom: 30px;
+}
+
+.birth {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.gender{
+    height: 36px;
+    margin: 0 100px;
+}
+
+.gender h3 {
+    margin-right: 20px;
+}
+
+.gender label {
+    margin-left: 20px;
+}
+
+.select {
+    justify-content: start;
+    margin-bottom: 50px;
+}
+
+.select option {
+    font-size: 25px;
+}
+
+
+.size-label{
+    display: flex;
+    justify-content: start;
+}
+
+.size-label-school {
+    flex-direction: column;
+    margin-right: 150px;
+    font-size: 25px;
+}
+
+.size-label-grade{
+    justify-content: start;
+}
+
+.size-label-grade h3 {
+    margin-right: 40px;
+}
+
+.size-label-grade label {
+    margin-right: 40px;
+    font-size: 25px;
+}
+
+.signature {
+    justify-content: start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color:rgb(198, 200, 199);
+    font-size: 30px;
+}
+
+.button {
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 30px ;
+    padding: 5px;
+    font-weight: 700;
+    box-shadow: 7px 7px darkgray;
+}
+
+.button:hover {
+    background-color: black;
+    color: rgb(198, 200, 199);
 }
